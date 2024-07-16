@@ -5,6 +5,10 @@ body{
     margin: 0;
     padding: 0;
 }
+
+h1{
+    font-size: 50px;
+}
 .word{
     color: orange;
 }
@@ -19,3 +23,90 @@ body{
     width: 100%;
 }
 
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 700px;
+    padding-bottom: 150px ;
+}
+
+.ln-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.part2{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.part2 img{
+    width: 100%;
+}
+
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-bottom: 150px;
+}
+
+.r-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp1{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+
+.exp h1{
+    font-weight: 500;
+}
+
+.orange{
+    color: orange;
+}
+
+#color1{
+    border-left: solid 7px ;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#color2{
+    border-left: solid 7px ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
